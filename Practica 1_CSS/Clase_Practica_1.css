@@ -1,0 +1,57 @@
+.backgrounds{
+    width: auto;
+    height: auto;
+    background: linear-gradient(90deg, rgb(200, 255, 200) 20%, rgb(100, 100, 255) 80%);
+}
+th{
+    background-color: #485387; 
+    color: white; 
+    font-family: Arial;
+}
+tr{
+    background-color: #8397f1;
+}
+
+a.bg{
+    background-color: red;
+    border-width: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+}
+
+a.bg2{
+
+    background-color: blue;
+    border-width: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+}
+
+
+.title_background{
+    width: 1150px;
+    height: 50px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+    
+    border-image: url(pattern.png);
+    border-image-slice: 27;
+    border-style: solid;
+    border-width: 27px;
+    border-image-width: 27px;
+    border-image-repeat: stretch round;
+    background-clip: padding-box;
+
+    background-color: antiquewhite;
+    
+
+}
+
+.link { color: white; }
+.link:hover { color: black; }
